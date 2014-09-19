@@ -103,4 +103,12 @@ har.means <- har %.%
 	group_by(activity, subject) %.%
 	summarise_each(funs(mean))
 
+# add "avg." prefix to our summary columns
+names(har.means) <- sapply(names(har.means), function(n) {
+	if (grepl("(mean|std)", n))
+		return(sprintf("avg.%s", n))
+	else
+		return(n)
+})
+
 write.table(har.means, "HAR_summary.txt", row.names = FALSE)
