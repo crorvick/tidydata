@@ -196,33 +196,43 @@ Average of the Z-axis velocity jerk standard deviations
 
 avg.tBodyAccMag.mean
 --------------------
+Average of the body acceleration magnitude means
 
 avg.tBodyAccMag.std
 -------------------
+Average of the body acceleration magnitude standard deviations
 
 avg.tGravityAccMag.mean
 -----------------------
+Average of the gravity acceleration magnitude means
 
 avg.tGravityAccMag.std
 ----------------------
+Average of the gravity acceleration magnitude standard deviations
 
 avg.tBodyAccJerkMag.mean
 ------------------------
+Average of the body acceleration jerk magnitude means
 
 avg.tBodyAccJerkMag.std
 -----------------------
+Average of the body acceleration jerk magnitude standard deviations
 
 avg.tBodyGyroMag.mean
 ---------------------
+Average of the body velocity magnitude means
 
 avg.tBodyGyroMag.std
 --------------------
+Average of the body velocity magnitude standard deviations
 
 avg.tBodyGyroJerkMag.mean
 -------------------------
+Average of the body velocity jerk magnitude means
 
 avg.tBodyGyroJerkMag.std
 ------------------------
+Average of the body velocity jerk magnitude standard deviations
 
 avg.fBodyAcc.mean.X
 -------------------
