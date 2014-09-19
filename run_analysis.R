@@ -38,7 +38,8 @@ read.har.table <- function(path, ...) {
 }
 
 # read in labels for activities and features
-activities <- read.har.table("activity_labels.txt", col.names = c("id", "activity"))
+activities <- read.har.table("activity_labels.txt",
+                             col.names = c("activity.id", "activity"))
 features <- read.har.table("features.txt", col.names = c("column", "name"))
 
 # define a factor for each of the data sets in the archive
@@ -74,12 +75,15 @@ read.har.dataset <- function(group) {
 	# group ("train" or "test), subject, and activity
 	grp <- rep(group, nrow(data))
 	sbj <- read.har.table(get.path("subject"))[,1]
-	act <- read.har.table(get.path("y"), col.names = "id")
+	act <- read.har.table(get.path("y"))[,1]
+
+	d <- data.frame(group = grp, subject = sbj, activity.id = act, data)
 
 	# map activity codes to the descriptive activiy factor
-	act <- merge(act, activities, by = "id")$activity
+	d <- merge(d, activities, by = "activity.id")
+	d$activity.id <- NULL
 
-	data.frame(group = grp, subject = sbj, activity = act, data)
+	d
 }
 
 # read in both ("train" and "test") data sets and combine into one
