@@ -12,6 +12,15 @@ script pulls the data together into a single table and then provides a
 summary of the data set by calculating the mean across a subset of the
 variables, grouped by activity and subject.
 
+The analysis script requires no argument and can be run as follows:
+
+	$ run_analysis.R
+
+The script pulls table data directly from the ZIP archive (which must be
+named `UCI HAR Dataset.zip`) located in the current working directory.
+And, if not found, it will download this file automatically from the UCI
+web site.
+
 Procedure
 =========
 
