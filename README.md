@@ -25,6 +25,10 @@ together:
 
 ![HAR data set structure](https://coursera-forum-screenshots.s3.amazonaws.com/ab/a2776024af11e4a69d5576f8bc8459/Slide2.png)
 
+Thanks to David Hood for providing this helpful depiction on a
+[thread](https://class.coursera.org/getdata-007/forum/thread?thread_id=49)
+in the course Discussion Forums.
+
 We first define `read.har.table(path)` for conveniently loading the
 components of the data set.  This function looks for the ZIP archive in
 the current directory and, if not present, downloads it from the UCI web
