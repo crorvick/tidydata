@@ -148,51 +148,51 @@ Average of the Z-axis body acceleration jerk standard deviations
 
 avg.tBodyGyro.mean.X
 --------------------
-Average of the X-axis velocity means
+Average of the X-axis body velocity means
 
 avg.tBodyGyro.mean.Y
 --------------------
-Average of the Y-axis velocity means
+Average of the Y-axis body velocity means
 
 avg.tBodyGyro.mean.Z
 --------------------
-Average of the Z-axis velocity means
+Average of the Z-axis body velocity means
 
 avg.tBodyGyro.std.X
 -------------------
-Average of the X-axis velocity standard deviations
+Average of the X-axis body velocity standard deviations
 
 avg.tBodyGyro.std.Y
 -------------------
-Average of the Y-axis velocity standard deviations
+Average of the Y-axis body velocity standard deviations
 
 avg.tBodyGyro.std.Z
 -------------------
-Average of the Z-axis velocity standard deviations
+Average of the Z-axis body velocity standard deviations
 
 avg.tBodyGyroJerk.mean.X
 ------------------------
-Average of the X-axis velocity jerk means
+Average of the X-axis body velocity jerk means
 
 avg.tBodyGyroJerk.mean.Y
 ------------------------
-Average of the Y-axis velocity jerk means
+Average of the Y-axis body velocity jerk means
 
 avg.tBodyGyroJerk.mean.Z
 ------------------------
-Average of the Z-axis velocity jerk means
+Average of the Z-axis body velocity jerk means
 
 avg.tBodyGyroJerk.std.X
 -----------------------
-Average of the X-axis velocity jerk standard deviations
+Average of the X-axis body velocity jerk standard deviations
 
 avg.tBodyGyroJerk.std.Y
 -----------------------
-Average of the Y-axis velocity jerk standard deviations
+Average of the Y-axis body velocity jerk standard deviations
 
 avg.tBodyGyroJerk.std.Z
 -----------------------
-Average of the Z-axis velocity jerk standard deviations
+Average of the Z-axis body velocity jerk standard deviations
 
 avg.tBodyAccMag.mean
 --------------------
@@ -324,16 +324,16 @@ Average of the body acceleration jerk magnitude FFT standard deviations
 
 avg.fBodyGyroMag.mean
 ---------------------
-Average of the velocity magnitude FFT means
+Average of the body velocity magnitude FFT means
 
 avg.fBodyGyroMag.std
 --------------------
-Average of the velocity magnitude FFT standard deviations
+Average of the body velocity magnitude FFT standard deviations
 
 avg.fBodyGyroJerkMag.mean
 -------------------------
-Average of the velocity jerk magnitude FFT means
+Average of the body velocity jerk magnitude FFT means
 
 avg.fBodyGyroJerkMag.std
 ------------------------
-Average of the velocity jerk magnitude FFT standard deviations
+Average of the body velocity jerk magnitude FFT standard deviations
