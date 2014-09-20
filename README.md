@@ -59,11 +59,14 @@ this group into a tidy data set.  This entails the following steps:
 1. Load the measurements from the `X_<group>.txt` file into a data
    frame, applying the previously-loaded feature names to the columns.
 
-2. Bind the group, subject, and activity values to each observation.
+2. Load the subject and activity data from the `subject_<group>.txt`
+   and `y_<group>.txt` files respectively.
+
+3. Bind the group, subject, and activity values to each observation.
    The group is constant for the data frame under construction, but is
    useful to include for when data frames for each group are combined.
 
-3. Map the activity identifier to the previously-loaded descriptive
+4. Map the activity identifier to the previously-loaded descriptive
    factor value.
 
 Finally, we call `read.har.dataset()` for each of the two groups and
